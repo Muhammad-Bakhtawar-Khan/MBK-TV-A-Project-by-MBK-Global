@@ -755,6 +755,11 @@ body{font-family:Manrope,Arial,sans-serif;background:var(--bg);letter-spacing:no
 .footer-brand { font-size: clamp(1.6rem, 2.6vw, 2.2rem); }
 .footer-intro > p:not(.footer-eyebrow) { max-width: 25rem; margin-top: 0.7rem; font-size: 0.75rem; line-height: 1.7; }
 .footer-micro { margin-top: 0.8rem; line-height: 1.65; }
+.wordmark { flex-direction: row; align-items: center; gap: 10px; }
+.wordmark-copy { display: flex; flex-direction: column; gap: 5px; }
+.wordmark-logo { display: block; width: 42px; height: 42px; flex: none; }
+.footer-brand { display: flex; align-items: center; gap: 8px; }
+.footer-logo { display: block; width: 30px; height: 30px; flex: none; }
 .footer-nav { justify-self: end; }
 .footer-nav-title { margin: 0 0 0.85rem; color: var(--muted); }
 .footer-actions { justify-content: flex-end; }
@@ -784,6 +789,9 @@ body.profile-open .footer { display: block; }
   .footer-bottom { padding-bottom: 1.1rem; font-size: 0.52rem; }
 }
 @media (max-width: 420px) {
+  .wordmark-logo { width: 34px; height: 34px; }
+  .wordmark-copy { gap: 3px; }
+  .footer-logo { width: 26px; height: 26px; }
   .footer-actions { display: grid; grid-template-columns: 1fr; }
   .footer-link { justify-content: space-between; width: 100%; }
   .footer-bottom { flex-direction: column; gap: 0.45rem; }

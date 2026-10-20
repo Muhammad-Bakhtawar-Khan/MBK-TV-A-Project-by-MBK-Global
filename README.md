@@ -44,4 +44,3 @@ Deploy the generated `dist/` directory to a static host such as Cloudflare Pages
 ## SEO and Google Search Console
 
 The public homepage is the sole canonical and indexable URL. `public/robots.txt` allows crawling and references `https://mbktv.vercel.app/sitemap.xml`; `public/sitemap.xml` contains only the canonical homepage. After deployment, add `https://mbktv.vercel.app/` as a Domain or URL-prefix property in Google Search Console, complete the ownership verification method Google provides, submit `https://mbktv.vercel.app/sitemap.xml`, and use URL Inspection to request crawling. This repository cannot confirm indexing, verification, or ranking.
-"# MBK-TV-A-Project-by-MBK-Global" 

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">MBK TV logo</title>
+  <desc id="desc">A dark square logo with the letters MBK and a lime TV panel.</desc>
+  <rect width="512" height="512" rx="104" fill="#101310"/>
+  <rect x="28" y="28" width="456" height="456" rx="82" fill="none" stroke="#3c4b3d" stroke-width="12"/>
+  <path fill="#f5f6ef" d="M87 354V157h63l48 84 48-84h63v197h-55V251l-42 73h-28l-42-73v103H87Z"/>
+  <path fill="#caff63" d="M330 157h95v53h-19v144h-57V210h-19v-53Z"/>
+  <path fill="#caff63" d="M330 379h95v21h-95z"/>
+</svg>
